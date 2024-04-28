@@ -41,7 +41,7 @@ tag = "tags"
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 13
+    weight = 10
 
 [security.exec]
     allow = ['^asciidoctor$']
