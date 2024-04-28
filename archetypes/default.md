@@ -1,7 +1,7 @@
-+++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
-draft = true
-+++
+---
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: {{ .Date }}
+draft: true
+---
 
-# Main Page?
+<!--- When running hugo new every site inherits this content :) -->

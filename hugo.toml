@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Stevans Coding Blog'
 theme = "paper"
 
-
 [params]
   # color style
   color = 'linen'                           # linen, wheat, gray, light
@@ -27,11 +26,20 @@ theme = "paper"
     weight = 9
 
   [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 10
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 11
 
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
 
 [security.exec]
     allow = ['^asciidoctor$']
