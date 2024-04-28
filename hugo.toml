@@ -1,36 +1,19 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Stevans Coding Blog'
+title = 'My New Hugo Site'
 theme = "paper"
-paginate = 3
-enableInlineShortcodes = true
-[security.exec]
-    allow = ['^asciidoctor$']
+
 
 [params]
-    color = 'linen'
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
 
-    twitter = 'nanxiaobei'
-    github = 'nanxiaobei'
-    instagram = 'nan.xiaobei'
+  # header social icons
+  twitter = 'stevan06v'               # twitter.com/YOUR_TWITTER_ID
+  github = 'stevan06v'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'stevan._v'           # instagram.com/YOUR_INSTAGRAM_ID            # threads.net/@YOUR_THREADS_ID
 
-    avatar = 'stevanvlajic.business@gmail.com'
-    name = 'Stevan Vlajic'
-    bio = 'Hello, World!'
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 10
+  # home page profile
+  avatar = 'https://de.gravatar.com/avatar/26cb2beceecb325a91e8afdd7d5e0ffc?size=256&cache=1714309459682'                 # gravatar email or image url
+  name = 'Stevan Vlajic'
+  bio = 'Welcome to my personal coding blog!'
