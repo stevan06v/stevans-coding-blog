@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Stevans Coding Blog'
 theme = "paper"
 
 
@@ -16,4 +16,7 @@ theme = "paper"
   # home page profile
   avatar = 'https://de.gravatar.com/avatar/26cb2beceecb325a91e8afdd7d5e0ffc?size=256&cache=1714309459682'                 # gravatar email or image url
   name = 'Stevan Vlajic'
-  bio = 'Welcome to my personal coding blog!'
+  bio = 'Hey 👋, I am Stevan Vlajic a software engineer based in Austria. Have fun using my personal coding blog as a learining resource.'
+
+[security.exec]
+    allow = ['^asciidoctor$']
