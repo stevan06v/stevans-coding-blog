@@ -4,7 +4,6 @@ description:  "Hugo, the world's fastest framework for building websites"
 date: "2023-09-03"
 categories: ["java"]
 author: "Stevan Vlajic"
-ShowToc: true
 ---
 
 Java development involves several essential tools and concepts crucial for building powerful applications. Let's explore some key components: Maven, JAR files, the Java compiler, and more.

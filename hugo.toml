@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Stevans Coding Blog'
 theme = "paper"
+paginate = 3
 
 [params]
   # color style
@@ -17,6 +18,17 @@ theme = "paper"
   name = 'Stevan Vlajic'
   bio = 'Hey 👋, I am Stevan Vlajic a software engineer based in Austria. Have fun using my personal coding blog as a learining resource.'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
 [menu]
 
   [[menu.main]]
@@ -26,20 +38,10 @@ theme = "paper"
     weight = 9
 
   [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 10
-
-  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 11
-
-
-[outputs]
-  home = [ "HTML", "RSS", "JSON" ]
+    weight = 13
 
 [security.exec]
     allow = ['^asciidoctor$']
