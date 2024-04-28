@@ -1,4 +1,36 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Stevans Coding Blog'
 theme = "paper"
+paginate = 3
+enableInlineShortcodes = true
+[security.exec]
+    allow = ['^asciidoctor$']
+
+[params]
+    color = 'linen'
+
+    twitter = 'nanxiaobei'
+    github = 'nanxiaobei'
+    instagram = 'nan.xiaobei'
+
+    avatar = 'stevanvlajic.business@gmail.com'
+    name = 'Stevan Vlajic'
+    bio = 'Hello, World!'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
