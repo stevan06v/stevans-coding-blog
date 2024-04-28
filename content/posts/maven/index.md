@@ -1,7 +1,7 @@
 ---
 title: "Understanding Java Development Essentials"
 description:  "Hugo, the world's fastest framework for building websites"
-date: "2019-02-28"
+date: "2022-09-03"
 tags: ["java", "maven", "jar"]
 author: "Stevan Vlajic"
 ---
@@ -12,7 +12,7 @@ Java development involves several essential tools and concepts crucial for build
 
 Java code undergoes several transformations before it can be executed. The Java compiler translates human-readable Java code into bytecode, a low-level intermediate language. This bytecode is then executed by the Java Virtual Machine (JVM), which translates it into machine code that can be understood by the underlying hardware.
 
-![Bytecode](./img/Bytecode.png)
+![java-under-the-hood](./img/java-under-the-hood.png)
 
 ## Java Compiler
 

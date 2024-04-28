@@ -18,5 +18,20 @@ theme = "paper"
   name = 'Stevan Vlajic'
   bio = 'Hey 👋, I am Stevan Vlajic a software engineer based in Austria. Have fun using my personal coding blog as a learining resource.'
 
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 9
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+
 [security.exec]
     allow = ['^asciidoctor$']
