@@ -1,7 +1,7 @@
-+++
-title = 'Mvvm'
-date = 2024-04-28T16:25:14+02:00
-draft = true
-+++
-
-# Main Page?
+---
+title: "Understanding MVVM Essentials"
+description:  "Hugo, the world's fastest framework for building websites"
+date: "2022-09-03"
+tags: ["patterns", "swift"]
+author: "Stevan Vlajic"
+---

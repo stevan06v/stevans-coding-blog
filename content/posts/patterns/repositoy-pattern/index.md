@@ -1,7 +1,9 @@
-+++
-title = 'Repositoy Pattern'
-date = 2024-04-28T16:24:05+02:00
-draft = true
-+++
+---
+title: "Understanding Respository Pattern"
+description:  "Hugo, the world's fastest framework for building websites"
+date: "2022-09-03"
+tags: ["patterns", "java"]
+author: "Stevan Vlajic"
+---
 
-# Main Page?
+# Main Page

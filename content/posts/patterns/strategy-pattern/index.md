@@ -1,7 +1,9 @@
-+++
-title = 'Strategy Pattern'
-date = 2024-04-28T16:27:16+02:00
-draft = true
-+++
+---
+title: "Understanding the Strategy-Pattern"
+description:  "Hugo, the world's fastest framework for building websites"
+date: "2022-09-03"
+tags: ["patterns", "python"]
+author: "Stevan Vlajic"
+---
 
-# Main Page?
+

@@ -1,7 +1,9 @@
-+++
-title = 'Jpa'
-date = 2024-04-28T16:28:39+02:00
-draft = true
-+++
+---
+title: "Understanding JPA"
+description:  "Hugo, the world's fastest framework for building websites"
+date: "2022-09-03"
+tags: ["patterns", "quarkus", jpa"]
+author: "Stevan Vlajic"
+---
 
-# Main Page?
+

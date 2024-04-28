@@ -1,7 +1,9 @@
-+++
-title = 'Porject Structure'
-date = 2024-04-28T16:29:02+02:00
-draft = true
-+++
+---
+title: "My way of structuring projects in Quarkus"
+description:  "Hugo, the world's fastest framework for building websites"
+date: "2022-09-03"
+tags: ["structure", "quarkus"]
+author: "Stevan Vlajic"
+---
 
-# Main Page?
+
