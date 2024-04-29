@@ -32,10 +32,9 @@ git clone https://github.com/Stevan06v/nextjs-hidden-service.git
 
 or just use this template repo.
 
-* Run the application:
-** In case you are working on a windows machine:
+### In case you are working on a windows machine:
 
-Run the docker-daemon and double click the start.cmd-file.
+Run the docker-daemon and double click the `start.cmd`-file.
 
 Open your tor-client and access the output hidden-service-url 
 
@@ -45,7 +44,7 @@ Example output:
 http://s5buptadf6hhh4dyfi6fah2stjrpz2ovdkquwv4xmjgrkzdmyhnciaqd.onion/
 ```
 
-** In case you are working on a linux based machine:
+### In case you are working on a linux based machine:
 
 ```bash
 bash start.sh
