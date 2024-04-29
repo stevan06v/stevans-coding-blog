@@ -52,7 +52,10 @@ bash start.sh
 
 Open your tor-client and access the output hidden-service-url 
 
-Example output: `http://s5buptadf6hhh4dyfi6fah2stjrpz2ovdkquwv4xmjgrkzdmyhnciaqd.onion/`
+Example output: 
+```text
+http://s5buptadf6hhh4dyfi6fah2stjrpz2ovdkquwv4xmjgrkzdmyhnciaqd.onion/
+```
 
 
 #### Use it in your project
