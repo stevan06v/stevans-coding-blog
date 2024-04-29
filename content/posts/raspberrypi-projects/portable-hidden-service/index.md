@@ -6,7 +6,7 @@ date: 2024-04-29T13:17:52+02:00
 <!--- When running hugo new every site inherits this content :) -->
 
 
-## Next.js App on Tor Hidden Service
+## Assets
 
 Link: https://github.com/Stevan06v/nextjs-hidden-service.git
 
