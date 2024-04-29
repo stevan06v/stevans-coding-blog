@@ -12,15 +12,15 @@ Link: https://github.com/Stevan06v/nextjs-hidden-service.git
 
 This blog-post is about deploying a Next.js application via a Tor hidden service to the onion network.
 
-### About
+## About
 
 The Next.js app showcases the power and flexibility of the Next.js framework, providing a robust and performant web application. By utilizing a Tor hidden service, the app can be accessed anonymously through the dark web, offering enhanced privacy and security.
 
-### The Architecture 
+## The Architecture 
 ![architecture](./img/architecture.png)
 
 
-### Getting Started
+## Getting Started
 
 To run the Next.js app locally, follow these steps:
 
@@ -44,7 +44,7 @@ Example output:
 http://s5buptadf6hhh4dyfi6fah2stjrpz2ovdkquwv4xmjgrkzdmyhnciaqd.onion/
 ```
 
-### In case you are working on a linux based machine:
+## In case you are working on a linux based machine:
 
 ```bash
 bash start.sh
@@ -58,7 +58,7 @@ http://s5buptadf6hhh4dyfi6fah2stjrpz2ovdkquwv4xmjgrkzdmyhnciaqd.onion/
 ```
 
 
-#### Use it in your project
+## Use it in your project
 * COPY the DOCKERFILE out of `my-next-app`:
 
 ```bash
