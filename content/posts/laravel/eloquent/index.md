@@ -65,7 +65,7 @@ Eloquent ORM in Laravel simplifies database interaction for developers. While yo
 # Practical Example
 
 ## Introduction
-To perfect your Eloquent-skills - lets implement a simple social media app Laravel based on a given ERD.
+To hone your Eloquent skills, let's build a basic social media app using Laravel, guided by a provided ERD.
 
 ## ERD
 
