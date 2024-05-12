@@ -16,7 +16,7 @@ paginate = 3
   # home page profile
   avatar = 'https://de.gravatar.com/avatar/26cb2beceecb325a91e8afdd7d5e0ffc?size=256&cache=1714309459682'                 # gravatar email or image url
   name = 'Stevan Vlajic'
-  bio = 'Hey 👋, I am Stevan Vlajic a software engineer based in Austria. I kinda like coding so I came up with the idea to summarize my some programming fundamentals and projects I have worked on here :). Have fun using my personal coding blog as a learning resource!'
+  bio = 'Hey 👋, I am Stevan Vlajic a software engineer based in Austria. I kinda like coding so I came up with the idea to summarize some programming fundamentals and projects I have worked on in this blog :). Have fun using my personal coding blog as a learning resource!'
 
 [markup]
   [markup.goldmark]
