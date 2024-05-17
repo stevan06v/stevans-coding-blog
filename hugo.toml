@@ -16,7 +16,7 @@ paginate = 3
   # home page profile
   avatar = 'https://de.gravatar.com/avatar/26cb2beceecb325a91e8afdd7d5e0ffc?size=256&cache=1714309459682'                 # gravatar email or image url
   name = 'Stevan Vlajic'
-  bio = 'Hey 👋, I am Stevan Vlajic a software engineer based in Austria. I kinda like coding so I came up with the idea to summarize some programming fundamentals and projects I have worked on in this blog :). Steve Jobs once said: "We’re here to put a dent in the universe. Otherwise why else even be here?". With that said - have fun using my personal coding blog as a learning resource and put a dent in the universe i guess ;)!'
+  bio = 'Hey 👋, I am Stevan Vlajic a software engineer based in Austria. I kinda like coding so I came up with the idea to summarize some programming fundamentals and projects I have worked on in this blog :). Steve Jobs once said: "We’re here to put a dent in the universe. Otherwise why else even be here?". With that said - have fun using my personal coding blog as a learning resource and put a dent in the universe I guess ;)!'
 
 [markup]
   [markup.goldmark]
