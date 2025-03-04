@@ -43,6 +43,9 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci || true
 
+      - name: Clean Public Directory
+        run: rm -rf ./public
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -55,6 +58,12 @@ jobs:
 
       - name: Debug Build Output
         run: ls -la ./public
+
+      - name: Remove Symlinks
+        run: find ./public -type l -delete
+
+      - name: Check Build Size
+        run: du -sh ./public
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -75,6 +84,9 @@ jobs:
         with:
           name: github-pages
           path: ./public
+
+      - name: Extract Artifact
+        run: tar -xvf ./public/* || true
 
       - name: Deploy to GitHub Pages
         id: deployment
