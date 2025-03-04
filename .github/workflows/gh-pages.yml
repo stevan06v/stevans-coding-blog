@@ -85,8 +85,8 @@ jobs:
           name: github-pages
           path: ./public
 
-      - name: Extract Artifact
-        run: tar -xvf ./public/* || true
+      - name: Verify Public Directory
+        run: ls -la ./public
 
       - name: Deploy to GitHub Pages
         id: deployment
